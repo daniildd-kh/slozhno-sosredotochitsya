@@ -5,11 +5,14 @@
   --bg-color: #353430;
   --text-color: #353430;
   --section-title-color: #353430;
-  background-image: url("../images/cover-image-light.png");
+  --bg-image: url("../images/cover-image-light.png");
+  --button-color: #353430;
+  --button-color-opacity: rgba(50, 49, 45, 0.40);
+  --title-shadow-color: #ff0070;
 
   .header__decoreted-element {
     display: none;
-  }
+  } 
 }
 
 @media (prefers-color-scheme: light) {
@@ -20,5 +23,13 @@
     --bg-color: #353430;
     --text-color: #353430;
     --section-title-color: #353430;
+    --bg-image: url("../images/cover-image-light.png");
+    --button-color: #353430;
+    --button-color-opacity: rgba(50, 49, 45, 0.40);
+    --title-shadow-color: #ff0070;
+    
+  }
+  .header__decoreted-element {
+    display: none;
   }
 }
