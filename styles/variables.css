@@ -6,4 +6,7 @@
   --bg-color: #000028;
   --padding-size: 10px;
   --title-color: #db00ff;
+  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --button-color-opacity:rgba(255, 0, 112, 0.4);
+  --title-shadow-color: #ff0070;
 }
